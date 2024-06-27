@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 800%;
+        }
+
+        table td, table th {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+        }
+        
+        table caption {
+            caption-side: top;
+            text-align: left;
+            font-size: 14px;
+            font-style: italic;
+            margin-bottom: 5px 0;
+        }
+
+        tfoot td, table th {
+            background: #ddd;
+
+        }
+
+        tfoot td {
+            font-style: italic;
+        }
+
+        .responsive-table {
+            overflow: auto;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="responsive-table">
+    <table>
+        <thead>
+            <caption>
+                Descrição pra tebala
+            </caption>
+            <tr>
+                <th>Título 1</th>
+                <th>Título 2</th>
+                <th>Título 3</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Corpo 1</td>
+                <td>Corpo 2</td>
+                <td>Corpo 3</td>
+            </tr>
+            <tr>
+                <td>Corpo 1</td>
+                <td>Corpo 2</td>
+                <td>Corpo 3</td>
+            </tr>
+        </tbody>
+=            <tr>
+                <td colspan="2" rowspan="2">Aqui</td>
+                <td>Corpo 3</td>
+            </tr>
+        <tfoot>
+            <tr>
+                <td>Corpo 1</td>
+                <td>Corpo 2</td>
+                <td>Corpo 3</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+</body>
+</html>
