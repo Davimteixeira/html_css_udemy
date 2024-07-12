@@ -27,3 +27,30 @@
     background: rgba( 0, 0, 0, 0.1);
 }
 
+@media  all and (max-width: 568px) {
+    .grid .col {
+        width: 100%;
+    }
+        
+}
+
+@media all and (min-width: 568px) and (max-width: 768px) {
+    .grid .col {
+        width: 100%;
+    }
+        
+}
+
+@media all and (min-width: 769px) and (max-width: 1200px) {
+    .grid .col {
+        width: 100%;
+    }
+        
+}
+
+@media all and (min-width: 1200) {
+    .grid .col {
+        width: 25%;
+    }
+        
+}
